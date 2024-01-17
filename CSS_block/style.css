@@ -1,0 +1,179 @@
+body {
+    background: url("https://bogatyr.club/uploads/posts/2023-02/thumbs/1677398522_bogatyr-club-p-prozrachnii-fon-fon-vkontakte-66.jpg");
+    margin: 0 auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+
+.header {
+    border-bottom: 1px solid rgb(187, 187, 187);
+    height: 50px;
+
+    background-color: grey;
+}
+
+.search {
+    float: right;
+    width: 600px;
+    text-align: center; /* Центрирование по горизонтали */
+}
+
+form {
+    float: right;
+    margin: 10px 0px 15px 15px;
+}
+
+input {
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* MENU */
+
+.menu {
+    height: 150px;
+    text-align: center;
+    background: url("https://phonoteka.org/uploads/posts/2022-09/1663019385_19-phonoteka-org-p-tekstura-neba-besshovnaya-krasivo-21.jpg");
+    margin: 0;
+}
+
+.panel {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.item {
+    display: inline-block;
+    text-align: left;
+    height: 40px;
+    width: 110px;   
+    
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.name {
+    display: inline-block;
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* MAIN */
+
+.main {
+    height: 600px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 0px 0px;
+
+}
+
+.block-left {
+    display: inline-block;
+    height: inherit;
+    width: 50%;
+    text-align: center;
+}
+.text span {
+    color: rgba(255, 0, 0, 0.736);
+}
+
+.image-obj {
+    width: 30%;
+}
+
+.image-pogoda {
+    width: 4%;
+}
+
+.image {
+    float: left;
+    width: 50%;
+    height: inherit;
+}
+.text {
+    display: inline;
+    float: right;
+    width: 50%;
+
+}
+
+.block-right {
+    display: block;
+    float: right;
+    height: inherit;
+    width: 50%;
+    text-align: center;
+}
+
+.block-image {
+    display: block;
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+}
+.block {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    height: 23%;
+
+}
+
+.table {
+    text-wrap: wrap;
+}
+
+.day {
+    display: block;
+}
+.discription {
+    width: 100%;
+    font-size: 1.5vw;
+    margin-top: 20px;
+    float: inline-end;
+}
+/* FOOTER */
+
+.footer {
+    margin-top: 30px;
+    border-top: 1px solid rgb(187, 187, 187);
+    height: 50px;
+}
+
+.footer-user {
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+
+.footer-contact {
+    display: block;
+    float: right;
+    margin-top: 15px;
+}
+
